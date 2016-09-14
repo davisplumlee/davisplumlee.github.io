@@ -240,3 +240,7 @@ html, body {
 .lefter{
     padding-left: 45px;
 }
+
+::selection{
+    background-color: rgba(100,100,100,.6)
+}
