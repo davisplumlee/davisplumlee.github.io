@@ -39,6 +39,12 @@ html, body {
     color: whitesmoke;
 }
 
+.black{
+    color: #333;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+}
+
 .home-nav a:hover, a:focus{
     color: whitesmoke;
     text-decoration: none;
@@ -76,10 +82,6 @@ html, body {
   right: 0;
 }
 
-/*body{
-    background-image: url('media/photos/placeholder.jpg');
-    background-size: cover;
-}*/
 
 .space{
     padding: 0px 10px;
@@ -106,6 +108,7 @@ html, body {
     font-size: 4.0em;
     font-kerning: 1.6em;
     color: whitesmoke;
+    padding-top: 10px;
 }
 
 
@@ -117,4 +120,123 @@ html, body {
 .home-text3{
     color: whitesmoke;
     font-family: 'Indie Flower', cursive;;
+}
+
+.bottomPad{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.hvr-underline-from-left2 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left2:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #333;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left2:hover:before, .hvr-underline-from-left2:focus:before, .hvr-underline-from-left2:active:before {
+  right: 0;
+}
+
+.side a:hover, a:focus{
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar{
+    display: none;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+}
+
+.center{
+    text-align: center;
+}
+
+.header{
+    font-family: 'Oswald', sans-serif;
+}
+
+.side{
+    padding-left: 70px;
+    padding-bottom: 15px;
+}
+
+.dark{
+    background-image: url('media/photos/placeholder2.jpg');
+    background-size: cover; 
+}
+
+.topPad{
+    padding-top: 30px;
+}
+
+.padLeft{
+    padding-left: 20px;
+}
+
+
+.bottomPa{
+    padding-bottom: 30px;
+}
+
+.sizeup{
+    font-size: 1.2em;
+}
+
+.down{
+    padding-bottom: 10px;
+}
+
+.topperPad{
+    padding-top: 90px;
+}
+
+.hov2{
+    font-size: 2.0em;
+    color: #999;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    transition: color 0.3s ease; 
+}
+
+.hov2:hover{
+    color: black;
+}
+
+.lefter{
+    padding-left: 45px;
 }

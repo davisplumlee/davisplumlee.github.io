@@ -11,9 +11,13 @@
 				url: '/',
 				component: 'homeComponent'
 			})
-            .state('resume', {
-				url: '/resume',
+            .state('about', {
+				url: '/about',
 				component: 'resumeComponent'
+			})
+			.state('contact', {
+				url: '/contact',
+				component: 'contactComponent'
 			})
 			.state('search', {
 				url: '/search/:query',
