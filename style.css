@@ -70,7 +70,7 @@ html, body {
   right: 100%;
   bottom: 0;
   background: whitesmoke;
-  height: 4px;
+  height: 3px;
   -webkit-transition-property: right;
   transition-property: right;
   -webkit-transition-duration: 0.3s;
