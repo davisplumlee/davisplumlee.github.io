@@ -19,6 +19,10 @@
 				url: '/contact',
 				component: 'contactComponent'
 			})
+			.state('work', {
+				url: '/work',
+				component: 'workComponent'
+			})
 			.state('search', {
 				url: '/search/:query',
 				component: 'search'

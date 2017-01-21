@@ -39,10 +39,32 @@ html, body {
     color: whitesmoke;
 }
 
+li a .white{
+    color: whitesmoke;
+}
+
 .black{
     color: #333;
     font-size: 1.5em;
     font-family: 'Oswald', sans-serif;
+}
+
+.github-template{
+    color: #333;
+    font-size: 2.5em;
+    font-family: 'Oswald', sans-serif;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    transition: color 0.3s ease; 
+    padding: 0px 15px;
+    
+}
+
+.github-template:hover{
+    color: #777;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    transition: color 0.3s ease; 
 }
 
 .home-nav a:hover, a:focus{
@@ -182,6 +204,19 @@ html, body {
   }
 }
 
+@media (min-width: 768px) {
+  .stackbox { 
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+.paddingd{
+    padding-top: 5px;
+    padding-bottom: 40px;
+  } 
+}
+
 .center{
     text-align: center;
 }
@@ -243,4 +278,45 @@ html, body {
 
 ::selection{
     background-color: rgba(100,100,100,.6)
+}
+
+.navbar li {
+	text-align: right;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+   border: none;
+   border-radius: 0;
+}
+
+.navbar li { color: #fff } 
+
+.button-clear{
+    background-color: rgba(255, 255, 255, 0);
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: rgba(0, 0, 0, 0);
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: rgba(0, 0, 0, 0);
+}
+.navbar-collapse {
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
