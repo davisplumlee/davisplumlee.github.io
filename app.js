@@ -20,7 +20,7 @@
 				component: 'contactComponent'
 			})
 			.state('work', {
-				url: '/work',
+				url: '/projects',
 				component: 'workComponent'
 			})
 			.state('search', {
